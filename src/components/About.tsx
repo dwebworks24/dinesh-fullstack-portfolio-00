@@ -1,6 +1,6 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Code, Palette, Zap } from "lucide-react";
+import { Code, Briefcase, Users } from "lucide-react";
 
 const About = () => {
   return (
@@ -12,17 +12,22 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div>
               <h3 className="text-2xl font-semibold mb-6">
-                Passionate Developer & Designer
+                Sr Full Stack Developer & Team Leader
               </h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                With over 5 years of experience in web development, I specialize in creating 
-                modern, responsive applications using cutting-edge technologies. My passion 
-                lies in bridging the gap between design and development.
+                Working at DT7Solutions since 2022, I've grown from a developer to a team leader 
+                managing 8 members. With expertise in both frontend and backend technologies, 
+                I've successfully delivered 40+ projects ranging from static websites to complex CRM applications.
+              </p>
+              <p className="text-muted-foreground mb-6 leading-relaxed">
+                I specialize in Django, React, Python, and AWS services. My experience includes 
+                deploying applications on various platforms like GitHub, Hostinger, GoDaddy, 
+                VPS servers, and AWS (EC2, S3, RDS, Lightsail, Amplify).
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                I believe in writing clean, maintainable code and creating intuitive user 
-                experiences that solve real-world problems. When I'm not coding, you can 
-                find me exploring new technologies or contributing to open-source projects.
+                With a Master's in Computer Applications from JNTU-K, I'm passionate about 
+                creating user-friendly applications and continuously learning new technologies 
+                to stay current with industry trends.
               </p>
             </div>
             
@@ -31,7 +36,7 @@ const About = () => {
                 <div className="w-32 h-32 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Code size={48} className="text-primary" />
                 </div>
-                <p className="text-sm text-muted-foreground">Developer Portrait</p>
+                <p className="text-sm text-muted-foreground">Sr Full Stack Developer</p>
               </div>
             </div>
           </div>
@@ -40,29 +45,29 @@ const About = () => {
             <Card className="hover-scale">
               <CardContent className="p-6 text-center">
                 <Code className="w-12 h-12 text-primary mx-auto mb-4" />
-                <h4 className="text-xl font-semibold mb-2">Clean Code</h4>
+                <h4 className="text-xl font-semibold mb-2">Full Stack Expertise</h4>
                 <p className="text-muted-foreground">
-                  Writing maintainable, scalable, and efficient code is my priority.
+                  Proficient in Django, React, Python, and modern web technologies with strong UI/UX focus.
                 </p>
               </CardContent>
             </Card>
 
             <Card className="hover-scale">
               <CardContent className="p-6 text-center">
-                <Palette className="w-12 h-12 text-primary mx-auto mb-4" />
-                <h4 className="text-xl font-semibold mb-2">Design Focus</h4>
+                <Users className="w-12 h-12 text-primary mx-auto mb-4" />
+                <h4 className="text-xl font-semibold mb-2">Team Leadership</h4>
                 <p className="text-muted-foreground">
-                  Creating beautiful, intuitive interfaces that users love to interact with.
+                  Leading a team of 8 developers and successfully managing multiple projects simultaneously.
                 </p>
               </CardContent>
             </Card>
 
             <Card className="hover-scale">
               <CardContent className="p-6 text-center">
-                <Zap className="w-12 h-12 text-primary mx-auto mb-4" />
-                <h4 className="text-xl font-semibold mb-2">Performance</h4>
+                <Briefcase className="w-12 h-12 text-primary mx-auto mb-4" />
+                <h4 className="text-xl font-semibold mb-2">40+ Projects</h4>
                 <p className="text-muted-foreground">
-                  Optimizing applications for speed and exceptional user experience.
+                  Delivered diverse projects including CRM applications, e-commerce sites, and static websites.
                 </p>
               </CardContent>
             </Card>

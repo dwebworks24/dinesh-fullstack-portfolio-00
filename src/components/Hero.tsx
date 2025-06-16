@@ -15,14 +15,14 @@ const Hero = () => {
       <div className="container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-            Hi, I'm <span className="text-primary">Your Name</span>
+            Hi, I'm <span className="text-primary">Badugu Dinesh</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-fade-in">
-            Full Stack Developer & UI/UX Designer
+            Sr Full Stack Developer & Team Leader
           </p>
           <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto animate-fade-in">
-            I create beautiful, functional, and user-centered digital experiences.
-            Welcome to my portfolio where creativity meets code.
+            Full Stack Developer with 2+ years of experience leading teams and building 40+ projects. 
+            Specializing in Django, React, AWS, and modern web technologies.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-fade-in">

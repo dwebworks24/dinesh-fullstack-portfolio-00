@@ -43,22 +43,32 @@ const Contact = () => {
             <h3 className="text-2xl font-semibold mb-6">Let's Work Together</h3>
             <p className="text-muted-foreground mb-8 leading-relaxed">
               I'm always interested in new opportunities and exciting projects. 
-              Whether you have a question or just want to say hi, I'll do my best 
-              to get back to you!
+              Whether you need a full-stack developer, team leader, or technical consultant, 
+              I'd love to discuss how I can help bring your ideas to life.
             </p>
             
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-primary" />
-                <span>your.email@example.com</span>
+                <span>badugudinesh93@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-primary" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 9985462090</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5 text-primary" />
-                <span>Your City, Country</span>
+                <span>Guntur, Andhra Pradesh, India</span>
+              </div>
+            </div>
+
+            <div className="mt-8">
+              <h4 className="text-lg font-semibold mb-4">Education</h4>
+              <div className="bg-muted/50 p-4 rounded-lg">
+                <h5 className="font-medium">Master of Computer Applications (MCA)</h5>
+                <p className="text-sm text-muted-foreground">JNTU-K University</p>
+                <p className="text-sm text-muted-foreground">St Mary's Group of Institutions, Guntur</p>
+                <p className="text-sm text-muted-foreground">2015-2018</p>
               </div>
             </div>
           </div>
