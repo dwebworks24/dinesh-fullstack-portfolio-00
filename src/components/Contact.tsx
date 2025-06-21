@@ -58,7 +58,7 @@ const Contact = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5 text-primary" />
-                <span>Bapatla, Bapatla AP-522101, India</span>
+                <span>Guntur, Guntur AP-522314, India</span>
               </div>
             </div>
 
